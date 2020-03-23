@@ -1,0 +1,39 @@
+{
+  "name": "curlcookie",
+  "type": "module",
+  "version": "0.0.3",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch",
+    "start": "yarn build && node dist/main.js",
+    "clean": "rm -rf dist",
+    "test": "jest --watch",
+    "coverage": "jest --coverage",
+    "dashboard": "webpack-dashboard -- webpack --watch"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-register": "^6.26.0",
+    "eslint": "^6.7.2",
+    "eslint-config-google": "^0.14.0",
+    "eslint-loader": "^3.0.2",
+    "eslint-plugin-react": "^7.17.0",
+    "jest": "^24.9.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dashboard": "^3.2.0"
+  },
+  "keywords": [
+    "curl",
+    "cookie",
+    "web-scraping",
+    "cookiejar",
+    "curlcookie",
+    "netscape cookie",
+    "cookies saved to disk"
+  ],
+  "author": "Venkatesh Babu AR",
+  "license": "MIT"
+}
