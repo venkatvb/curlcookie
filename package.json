@@ -1,7 +1,7 @@
 {
   "name": "curlcookie",
   "type": "module",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Parse cookie jar stored by curl",
   "homepage": "https://github.com/venkatvb/curlcookie#curl-cookie",
   "url": "https://github.com/venkatvb/curlcookie/issues",
